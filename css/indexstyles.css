@@ -1,7 +1,99 @@
 body {
-    padding-left: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: white;
+}
+
+h1 {
+    margin-top: 0;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.form-body{
+    background-color: rgb(170, 168, 168);
+    box-sizing: border-box;
 }
 
 div.form-group {
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+div.form-bottom {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 5px 10px 5px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 5px 10px 5px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+input[type=number] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 5px 10px 5px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+input[type=date] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 5px 10px 5px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 5px 10px 5px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 5px 10px 5px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    box-sizing: border-box;
+    background-color: gray;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 5px;
+    margin-bottom: 25px;
 }
