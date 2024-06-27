@@ -7,6 +7,82 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Formulario de Cadastro</h1>
+    <form action="/action_page.php" method="post" autocomplete="off">
+        <div class="form-group">
+            <label for="nome">Nome</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Seu Nome" required>
+        </div>
+        <div class="form-group">
+            <label for="sobrenome">Sobrenome</label><br>
+            <input type="text" placeholder="Seu Sobrenome" required>
+        </div>
+        <div class="form-group">
+            <label for="sexo">Sexo</label><br>
+            <select id="" name="" required>
+                <option value="nada"></option>
+                <option value="masc">Masculino</option>
+                <option value="fam">Feminino</option>
+              </select>
+        </div>
+        <div class="form-group">
+            <label for="datanasc">Data de Nascimento</label><br>
+            <input type="date" required>
+        </div>
+        <div class="form-group">
+            <label for="cpf">CPF</label><br>
+            <input type="number" placeholder="xxx.xxx.xxx-xx" maxlength="11" required>
+        </div>
+        <div class="form-group">
+            <label for="rg">RG</label><br>
+            <input type="number" placeholder="xx.xxx.xxx-x" maxlength="9" required>
+        </div>
+        <h1>Endereço</h1>
+        <div class="form-group">
+            <label for="rua">Rua</label><br>
+            <input type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="numero">Numero</label><br>
+            <input type="text"  required>
+        </div>
+        <div class="form-group">
+            <label for="bairro">Bairro</label><br>
+            <input type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="cidade">Cidade</label><br>
+            <input type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="estado">Estado</label><br>
+            <input type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="cep">CEP</label><br>
+            <input type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="complemento">Complemento</label><br>
+            <input type="text" required>
+        </div>
+        <h1>Login</h1>
+        <div class="form-group">
+            <label for="email">E-Mail</label><br>
+            <input type="email" required>
+        </div>
+        <div class="form-group">
+            <label for="usuario">Usuario</label><br>
+            <input type="text" required>
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha</label><br>
+            <input type="password" required>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
 </body>
 </html>
